@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 
-const allowedOrigins = ['https://yhaw.github.io'];
+const allowedOrigins = ['https://modnk-211.github.io/TODO-FRONTEND/'];
 
 app.use(cors({
   origin: function (origin, callback) {
